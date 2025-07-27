@@ -395,4 +395,5 @@ def main():
         sns.barplot(x='Importance', y='Feature', data=feature_importance.head(10), ax=ax)
         ax.set_title('Top 10 Important Features')
         st.pyplot(fig)
-
+if __name__ == "__main__":
+    main()
